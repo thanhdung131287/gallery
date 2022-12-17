@@ -1,0 +1,19 @@
+{% extends 'photos/base-gallery.html' %}
+{% block title %} 404 NOT FOUND {% endblock title %}
+{% load static %}
+
+{% block content %}
+<div class="page-not-found">
+  <div class="container">
+    <div class="main-page-not-found">
+        <div class="error-code">404</div>
+        <div class="message">Rất tiếc, không tìm thấy trang</div>
+        <button
+            class="home-button"
+        >
+            Về trang chủ
+        </button>
+    </div>
+  </div>
+</div>
+{% endblock %}
